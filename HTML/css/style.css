@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+.header{
+    background:black;
+    padding: 25px;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+
+.footer{
+    background:black;
+    padding: 20px;
+    font-size: 18px;
+    color: white;
+    text-align: center;
+}
+
+nav{
+    background-color: darkgray;
+    padding: 30px;
+    text-align: center;
+}
+nav ul li{
+    
+    display: inline;
+}
+a{
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    padding: 20px;
+}
+a:hover{
+    color: black;
+}
+
+.about{
+    padding:150px;
+    background-image: url(working-on-laptop.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 30px;
+    color:white;
+}
+
+.skills{
+    padding:120px;
+    background-image: url(coding.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 15px;
+    color:lavender;
+
+    display: flex;
+    justify-content: space-around;
+}
+
+.education{
+    padding:150px;
+    background-image: url(photography-books.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 30px;
+    color:white;
+}
+
+.contact{
+    padding:150px;
+    background-image: url(telephone.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 30px;
+    color:white;
+
+    
+}
+
+.flex-item-1{
+    text-align: center;
+}
+
+.flex-item-2{
+    background-color: rgba(0,0,0,0.5); 
+    padding: 80px;
+    
+}
+.flex-item-3{
+    background-color: rgba(0,0,0,0.5); 
+    padding: 80px;
+    display: flex;
+    justify-content: space-evenly;
+}
